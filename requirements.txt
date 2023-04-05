@@ -1,4 +1,0 @@
-streamlit==1.20.0
-joblib==1.2.0
-StandardScaler==0.5
-requests==2.28.2
