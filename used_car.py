@@ -5,7 +5,7 @@ import numpy as np
 import sklearn
 from sklearn.preprocessing import StandardScaler
 
-model = joblib.load("C:/Users/pga28/PycharmProject/USed_Car_price/model.pkl")
+model = joblib.load("model.pkl")
 standard_to = StandardScaler()
 
 def predict(Year, Current_Price, Dist_Driven, Owner, Fuel_Type_Petrol, Seller_Type_Individual, Transmission_Mannual):
